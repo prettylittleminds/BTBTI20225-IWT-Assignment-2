@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>W2E9</title>
+	</head>
+	<body bgcolor = "pink">
+		<h1 align = "center">Implementing Feedback Page in HTML</h1>
+		<table align = "center">
+		<form method = post action = "https://www.w3schools.com/html/html_images_imagemap.asp">
+			<tr>
+				<td> <label> 1. Do you like our Software Product? </label> </td>
+			</tr>
+			<tr>
+				<td> <label> Yes </label> <input type = "radio" name = "prod-pref" value = "yes" checked> <br> 
+					<label> No </label> <input type = "radio" name = "prod-pref" value = "no"> </td>
+				
+			<tr>
+				<td> <label> 2. If yes, then why and if no, then also why bro? </label> </td>
+			</tr>
+			<tr>
+				<td> <textarea name = "feedback" rows = 5 cols = 40 placeholder = "Enter your comments..."> </textarea> </td>
+			</tr>
+			<tr>
+				<td> <label> 3. Select your favorite part of the product: </label> </td>
+			</tr>
+			<tr>
+				<td> <select name = "product-part" multiple> 
+					<option> 1. UI Design </option>
+					<option> 2. UX Design </option>
+					<option> 3. Responsive Design </option>
+				</td>
+			</tr>
+			<tr>
+				<td> <input type = "submit"> </td>
+			</tr>
+		</form>
+		</table>
+	</body>
+</html>
